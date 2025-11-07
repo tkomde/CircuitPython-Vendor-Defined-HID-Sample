@@ -5,7 +5,7 @@ A sample for performing INPUT/OUTPUT communication using a Vendor Defined Usage 
 ## Confirmed Environment
 
 - CircuitPython: 10.1.0-beta.0
-- Board: Seeed Xiao nRF52840 Sense
+- Board: Seeed Xiao nRF52840 Sense (When tested on the XIAO ESP32S3, it appears to crash during initialization with this descriptor)
 - Chrome: M142 (macOS / Windows)
   - ChromeOS does not work.
 
