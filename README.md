@@ -4,7 +4,7 @@ A sample for performing INPUT/OUTPUT communication using a Vendor Defined Usage 
 
 ## Confirmed Environment
 
-- CircuitPython: 10.1.0-beta.0
+- CircuitPython: 10.1.0-beta.1
 - Board: Seeed Xiao nRF52840 Sense (When tested on the XIAO ESP32S3, it appears to crash during initialization with this descriptor)
 - Chrome: M142 (macOS / Windows)
   - ChromeOS does not work.
@@ -20,7 +20,6 @@ A sample for performing INPUT/OUTPUT communication using a Vendor Defined Usage 
 
 - Copy the code.py file from this repository to the root of the CIRCUITPY folder.
 - Copy the adafruit_hid and adafruit_ble libraries into the CIRCUITPY/lib folder.
-- Override adafruit_ble/services/standard/hid.py(mpy) with this repo's hid.py.
 - Pairing on macOS / Windows will start the HID communication.
 - After OS pairing, open webhid_vendor_defined.html in Chrome, click "Connect HID Device," and connect the HID device to begin data communication.
   - Data will be received from CircuitPython.
